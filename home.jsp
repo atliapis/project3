@@ -43,6 +43,8 @@
 				</td>
 			</tr>
 			</table>
+
+			<a href="/project3/sessionCounter.jsp">Press here to see site statistics</a>
 			
 			<div id="mainImg">
 			<iframe src="files/images/BurjKhalifaMarch2012.jpeg" width="100%" height="300" scrolling="auto" seamless="1" frameborder="0" name="imgFrame"></iframe>

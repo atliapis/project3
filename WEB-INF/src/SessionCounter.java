@@ -1,15 +1,5 @@
 package moreservlets.listeners;
 
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author mchrisober
- */
-
 import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;

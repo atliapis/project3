@@ -40,6 +40,8 @@
  	 <servlet-class>com.cj.album.showImage</servlet-class> 
     </servlet> 
 
+    
+
     <servlet-mapping>
 	 <servlet-name>uploadServlet</servlet-name>
 	 <url-pattern>/upload</url-pattern>
@@ -52,5 +54,15 @@
   	<servlet-name>showImage</servlet-name> 
   	<url-pattern>/servlet/showImage</url-pattern> 
     </servlet-mapping>
+
+    <listener>
+       <listener-class>
+        moreservlets.listeners.SessionCounter
+       </listener-class>
+     </listener>
+
+ <session-config>
+         <session-timeout>10</session-timeout>
+     </session-config>
 
 </web-app>
